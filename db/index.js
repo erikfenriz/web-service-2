@@ -8,22 +8,23 @@ async function listDatabases(client) {
 }
 
 async function connect() {
+  console.log('initial connect');
   const uri = process.env.ACCESS_KEY;
-
-  const client = new MongoClient(uri);
-
-  try {
-    // Connect to the MongoDB cluster
-    await client.connect();
-
-    // Make the appropriate DB calls
-    await listDatabases(client);
-
-  } catch (e) {
-    console.error(e);
-  } finally {
-    await client.close();
-  }
+  console.log(uri)
+  // const client = new MongoClient(uri);
+  //
+  // try {
+  //   // Connect to the MongoDB cluster
+  //   await client.connect();
+  //
+  //   // Make the appropriate DB calls
+  //   await listDatabases(client);
+  //
+  // } catch (e) {
+  //   console.error(e);
+  // } finally {
+  //   await client.close();
+  // }
 }
 
 module.exports = {connect}
