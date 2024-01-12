@@ -6,10 +6,10 @@ dotenv.config();
 
 const app = express();
 
-app.use('/', require('./routes/'));
+const port = process.env.PORT || 3000
 
-app.listen(process.env.PORT || 3000);
-console.log()
+app.use('/', require('./routes/'));
+app.listen(port, () => {console.log("Running on port " + port)});
 
 db.connect().catch(console.error);
 
