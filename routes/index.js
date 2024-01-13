@@ -1,8 +1,11 @@
-const router = require('express').Router();
-const path = require('path');
 const fs = require('fs');
+const path = require('path');
+const router = require('express').Router();
+const controllers = require("../controllers");
 
 const routeFiles = fs.readdirSync(__dirname);
+
+router.get('/', controllers.helloWorld);
 
 routeFiles
   .filter(file => file !== 'index.js')

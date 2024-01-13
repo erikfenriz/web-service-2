@@ -3,7 +3,7 @@ const {ObjectId} = require('mongodb');
 
 const collectionName = 'contacts';
 
-const getAllContacts = async (req, res, next) => {
+async function getAllContacts (req, res){
   try {
     const result = await getDb().db().collection(collectionName).find();
 
@@ -21,7 +21,7 @@ const getAllContacts = async (req, res, next) => {
   }
 };
 
-const getContactById = async (req, res) => {
+async function getContactById (req, res){
   try {
     const result = await getDb().db().collection(collectionName).findOne({
       _id: new ObjectId(req.params.id)
