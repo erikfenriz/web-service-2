@@ -5,7 +5,7 @@ const collectionName = 'contacts';
 
 const getAllContacts = async (req, res, next) => {
   try {
-    const result = await getDb().db(process.env.DB_NAME).collection(collectionName).find();
+    const result = await getDb().db().collection(collectionName).find();
 
     if (!result) {
       res.status(404).json({message: 'Not found'});
@@ -23,7 +23,7 @@ const getAllContacts = async (req, res, next) => {
 
 const getContactById = async (req, res) => {
   try {
-    const result = await getDb().db(process.env.DB_NAME).collection(collectionName).findOne({
+    const result = await getDb().db().collection(collectionName).findOne({
       _id: new ObjectId(req.params.id)
     });
 
