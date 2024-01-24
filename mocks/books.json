@@ -1,0 +1,52 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "publicationYear": 1925,
+    "isbn": "978-0-7432-7356-5",
+    "availableCopies": 3,
+    "publisher": "Scribner",
+    "language": "English"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "publicationYear": 1960,
+    "isbn": "978-0-06-112008-4",
+    "availableCopies": 5,
+    "publisher": "J.B. Lippincott & Co.",
+    "language": "English"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "publicationYear": 1949,
+    "isbn": "978-0-452-28423-4",
+    "availableCopies": 2,
+    "publisher": "Secker & Warburg",
+    "language": "English"
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "genre": "Science Fiction",
+    "publicationYear": 1979,
+    "isbn": "978-0-345-39182-6",
+    "availableCopies": 7,
+    "publisher": "Pan Books",
+    "language": "English"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "publicationYear": 1813,
+    "isbn": "978-1-85326-000-1",
+    "availableCopies": 4,
+    "publisher": "T. Egerton, Whitehall",
+    "language": "English"
+  }
+]

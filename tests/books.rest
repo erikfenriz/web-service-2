@@ -1,0 +1,87 @@
+// LOCAL TESTING
+
+### Test route
+GET http://localhost:3000
+
+### Get all books
+GET http://localhost:3000/books
+
+### Get book by ID
+GET http://localhost:3000/books/65aebc8559d0a2b8587f6f99
+
+### Create new book
+POST http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Brave New World",
+  "author": "Aldous Huxley",
+  "genre": "Dystopian",
+  "publicationYear": 1932,
+  "isbn": "978-0-06-085052-4",
+  "availableCopies": 3,
+  "publisher": "HarperCollins",
+  "language": "English"
+}
+
+### Update a book
+PUT http://localhost:3000/books/65aebc8559d0a2b8587f6f9b HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "1984",
+  "author": "George Orwell",
+  "genre": "Dystopian",
+  "publicationYear": 1949,
+  "isbn": "978-0-452-28423-4",
+  "availableCopies": 2,
+  "publisher": "Secker & Warburg",
+  "language": "English"
+}
+
+### Delete a book
+DELETE http://localhost:3000/books/65a98a00b7042d478d85b372
+
+
+// PROD TESTING
+
+### Test route
+GET https://web-service-uj6v.onrender.com
+
+### Get all books
+GET https://web-service-uj6v.onrender.com/books
+
+### Get book by ID
+GET https://web-service-uj6v.onrender.com/books/65a1a1dd958ba9ea87c72ca6
+
+### Create new book
+POST https://web-service-uj6v.onrender.com/books HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Brave New World",
+  "author": "Aldous Huxley",
+  "genre": "Dystopian",
+  "publicationYear": 1932,
+  "isbn": "978-0-06-085052-4",
+  "availableCopies": 3,
+  "publisher": "HarperCollins",
+  "language": "English"
+}
+### Update a book
+PUT https://web-service-uj6v.onrender.com/books/65aebc8559d0a2b8587f6f9b HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "1984",
+  "author": "George Orwell",
+  "genre": "Dystopian",
+  "publicationYear": 1949,
+  "isbn": "978-0-452-28423-4",
+  "availableCopies": 2,
+  "publisher": "Secker & Warburg",
+  "language": "English"
+}
+
+### Update a book
+DELETE https://web-service-uj6v.onrender.com/books/65aad784a72ef588a931e204

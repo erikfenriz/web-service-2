@@ -1,0 +1,47 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "username": "johndoe",
+    "password": "securepass",
+    "birthDate": "1990-05-15",
+    "address": "123 Main St, Cityville"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "username": "janesmith",
+    "password": "strongpass",
+    "birthDate": "1985-08-22",
+    "address": "456 Oak Ave, Townsville"
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "email": "bob.johnson@example.com",
+    "username": "bobjohnson",
+    "password": "secretword",
+    "birthDate": "1995-02-10",
+    "address": "789 Pine Rd, Villagetown"
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "Williams",
+    "email": "alice.williams@example.com",
+    "username": "alicewill",
+    "password": "safekey",
+    "birthDate": "1988-11-28",
+    "address": "567 Elm Lane, Hamletsville"
+  },
+  {
+    "firstName": "Charlie",
+    "lastName": "Brown",
+    "email": "charlie.brown@example.com",
+    "username": "charlieb",
+    "password": "brown123",
+    "birthDate": "1993-04-05",
+    "address": "890 Maple Blvd, Riverside"
+  }
+]

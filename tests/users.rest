@@ -1,0 +1,83 @@
+// LOCAL TESTING
+
+### Test route
+GET http://localhost:3000
+
+### Get all users
+GET http://localhost:3000/users
+
+### Get user by ID
+GET http://localhost:3000/users/65a1a1dd958ba9ea87c72ca6
+
+### Create new user
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Erik",
+  "lastName": "Rybalkin",
+  "email": "erik.ryb@email.com",
+  "username": "erikryb",
+  "password": "strongpass1234",
+  "birthDate": "1993-01-01",
+  "address": "Bernstrasse 999"
+}
+
+### Update a user
+PUT http://localhost:3000/users/65aebc7859d0a2b8587f6f95 HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane.smith@example.com",
+  "username": "janesmith",
+  "password": "strongpass",
+  "birthDate": "1985-08-22",
+  "address": "456 Oak Ave, Townsville"
+}
+
+### Delete a user
+DELETE http://localhost:3000/users/65b01763c6530f7112d5990b
+
+// PROD TESTING
+
+### Test route
+GET https://web-service-uj6v.onrender.com
+
+### Get all users
+GET https://web-service-uj6v.onrender.com/users
+
+### Get contact by ID
+GET https://web-service-uj6v.onrender.com/users/65a1a1dd958ba9ea87c72ca6
+
+### Create new user
+POST https://web-service-uj6v.onrender.com/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Erik",
+  "lastName": "Rybalkin",
+  "email": "erik.ryb@email.com",
+  "username": "erikryb",
+  "password": "strongpass1234",
+  "birthDate": "1993-01-01",
+  "address": "Bernstrasse 999"
+}
+
+### Update a user
+PUT https://web-service-uj6v.onrender.com/users/65a1a1dd958ba9ea87c72ca6 HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane.smith@example.com",
+  "username": "janesmith",
+  "password": "strongpass",
+  "birthDate": "1985-08-22",
+  "address": "456 Oak Ave, Townsville"
+}
+
+### Update a user
+DELETE https://web-service-uj6v.onrender.com/users/65aad784a72ef588a931e204
