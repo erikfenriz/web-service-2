@@ -55,25 +55,25 @@
               "type": "object",
               "properties": {
                 "firstName": {
-                  "example": "any"
+                  "example": "John"
                 },
                 "lastName": {
-                  "example": "any"
+                  "example": "Doe"
                 },
                 "email": {
-                  "example": "any"
+                  "example": "email@email.com"
                 },
                 "username": {
-                  "example": "any"
+                  "example": "username"
                 },
                 "password": {
-                  "example": "any"
+                  "example": "1234awsd"
                 },
                 "birthDate": {
-                  "example": "any"
+                  "example": "2000-01-01"
                 },
                 "address": {
-                  "example": "any"
+                  "example": "Address 123"
                 }
               }
             }
@@ -143,25 +143,25 @@
               "type": "object",
               "properties": {
                 "firstName": {
-                  "example": "any"
+                  "example": "John"
                 },
                 "lastName": {
-                  "example": "any"
+                  "example": "Doe"
                 },
                 "email": {
-                  "example": "any"
+                  "example": "email@email.com"
                 },
                 "username": {
-                  "example": "any"
+                  "example": "username"
                 },
                 "password": {
-                  "example": "any"
+                  "example": "1234awsd"
                 },
                 "birthDate": {
-                  "example": "any"
+                  "example": "2000-01-01"
                 },
                 "address": {
-                  "example": "any"
+                  "example": "Address 123"
                 }
               }
             }
@@ -242,28 +242,28 @@
               "type": "object",
               "properties": {
                 "title": {
-                  "example": "any"
+                  "example": "Title"
                 },
                 "author": {
-                  "example": "any"
+                  "example": "Author"
                 },
                 "genre": {
-                  "example": "any"
+                  "example": "Genre"
                 },
                 "publicationYear": {
-                  "example": "any"
+                  "example": 1984
                 },
                 "isbn": {
-                  "example": "any"
+                  "example": "978-0-06-085052-4"
                 },
                 "availableCopies": {
-                  "example": "any"
+                  "example": 10
                 },
                 "publisher": {
-                  "example": "any"
+                  "example": "Publisher"
                 },
                 "language": {
-                  "example": "any"
+                  "example": "English"
                 }
               }
             }
@@ -333,28 +333,28 @@
               "type": "object",
               "properties": {
                 "title": {
-                  "example": "any"
+                  "example": "Title"
                 },
                 "author": {
-                  "example": "any"
+                  "example": "Author"
                 },
                 "genre": {
-                  "example": "any"
+                  "example": "Genre"
                 },
                 "publicationYear": {
-                  "example": "any"
+                  "example": 1984
                 },
                 "isbn": {
-                  "example": "any"
+                  "example": "978-0-06-085052-4"
                 },
                 "availableCopies": {
-                  "example": "any"
+                  "example": 10
                 },
                 "publisher": {
-                  "example": "any"
+                  "example": "Publisher"
                 },
                 "language": {
-                  "example": "any"
+                  "example": "English"
                 }
               }
             }
